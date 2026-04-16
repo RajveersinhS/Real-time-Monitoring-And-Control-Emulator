@@ -1,0 +1,6 @@
+../Core/Src/processing_task.c:43:15:GetSystemState	1
+../Core/Src/processing_task.c:52:6:RequestStateReset	1
+../Core/Src/processing_task.c:67:22:EvaluateSafety	18
+../Core/Src/processing_task.c:130:13:UpdateLEDs	7
+../Core/Src/processing_task.c:177:13:SendLogEntry	1
+../Core/Src/processing_task.c:201:6:ProcessingTask	6

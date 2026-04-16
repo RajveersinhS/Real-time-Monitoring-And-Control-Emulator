@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="osThreadId"/>
+		<item value="TaskHandle"/>
+		<item value="TaskHandle_t defaultTaskHandle;"/>
+		<item value="vTaskStartScheduler"/>
+		<item value="vTaskStartScheduler();"/>
+		<item value="MX_FREERTOS_Init();"/>
+	</list>
+</section>

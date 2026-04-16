@@ -1,0 +1,3 @@
+../Core/Src/comm_task.c:75:16:ValidateMessage	16	static
+../Core/Src/comm_task.c:101:16:SimulateCANLoopback	16	static
+../Core/Src/comm_task.c:131:6:CommTask	40	static

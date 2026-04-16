@@ -1,0 +1,6 @@
+../Core/Src/sensor_task.c:40:17:PseudoRandom	1
+../Core/Src/sensor_task.c:51:14:RandomDeviation	1
+../Core/Src/sensor_task.c:62:14:SimulateTemperature	4
+../Core/Src/sensor_task.c:87:14:SimulatePressure	4
+../Core/Src/sensor_task.c:113:13:BuildSensorMessage	1
+../Core/Src/sensor_task.c:131:6:SensorTask	1

@@ -1,0 +1,7 @@
+../Core/Src/logging_task.c:43:13:UART_Print	1
+../Core/Src/logging_task.c:53:20:StateToString	5
+../Core/Src/logging_task.c:67:13:PrintSeparator	1
+../Core/Src/logging_task.c:75:13:PrintBanner	1
+../Core/Src/logging_task.c:104:13:PrintStateTransition	5
+../Core/Src/logging_task.c:137:13:PrintLogEntry	7
+../Core/Src/logging_task.c:176:6:LoggingTask	3

@@ -1,0 +1,22 @@
+13:51:29 **** Incremental Build of configuration Debug for project RT_Monitoring_Control_System ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/logging_task.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_DIRECT_SMPS_SUPPLY -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32H7xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/logging_task.d" -MT"Core/Src/logging_task.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/logging_task.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_DIRECT_SMPS_SUPPLY -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32H7A3xxQ -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32H7xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "RT_Monitoring_Control_System.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\rajve\OneDrive\Desktop\Monitoring system\RT_Monitoring_Control_System\STM32H7A3ZITXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="RT_Monitoring_Control_System.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RT_Monitoring_Control_System.elf
+ 
+arm-none-eabi-size  RT_Monitoring_Control_System.elf 
+arm-none-eabi-objdump -h -S RT_Monitoring_Control_System.elf  > "RT_Monitoring_Control_System.list"
+   text	   data	    bss	    dec	    hex	filename
+  41140	    148	  38708	  79996	  1387c	RT_Monitoring_Control_System.elf
+Finished building: default.size.stdout
+ 
+Finished building: RT_Monitoring_Control_System.list
+ 
+13:51:35 **** Incremental Build of configuration Debug for project RT_Monitoring_Control_System ****
+make -j12 all 
+arm-none-eabi-size  RT_Monitoring_Control_System.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41140	    148	  38708	  79996	  1387c	RT_Monitoring_Control_System.elf
+Finished building: default.size.stdout
+ 
